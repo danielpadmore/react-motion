@@ -1,5 +1,5 @@
 {
-  "name": "react-motion",
+  "name": "@danielpadmore/react-motion",
   "version": "0.6.0",
   "description": "A spring that solves your animation problems.",
   "main": "dist/react-motion.cjs.js",
@@ -90,7 +90,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chenglou/react-motion.git"
+    "url": "https://github.com/danielpadmore/react-motion.git"
   },
   "keywords": [
     "react",
@@ -105,8 +105,7 @@
     "ui"
   ],
   "author": [
-    "nkbt",
-    "chenglou"
+    "danielpadmore"
   ],
   "license": "MIT",
   "dependencies": {
