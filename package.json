@@ -1,11 +1,14 @@
 {
   "name": "react-motion",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "A spring that solves your animation problems.",
   "main": "dist/react-motion.cjs.js",
   "module": "dist/react-motion.esm.js",
   "peerDependencies": {
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
@@ -36,10 +39,10 @@
     "isparta-loader": "^2.0.0",
     "jasmine-core": "^3.1.0",
     "karma": "^2.0.4",
+    "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.2",
     "karma-jasmine": "^1.1.2",
     "karma-jasmine-diff-reporter": "^1.2.0",
-    "karma-chrome-launcher": "^2.2.0",
     "karma-webpack": "^3.0.0",
     "lint-staged": "^7.2.0",
     "lodash.range": "^3.0.1",
