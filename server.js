@@ -5,7 +5,7 @@ process.env.NODE_ENV = 'development';
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config');
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
@@ -13,8 +13,8 @@ new WebpackDevServer(webpack(config), {
   stats: {
     chunkModules: false,
     colors: true,
-  }
-}).listen(port, '0.0.0.0', function (err) {
+  },
+}).listen(port, '0.0.0.0', function(err) {
   if (err) {
     console.log(err);
   }
